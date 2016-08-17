@@ -1,0 +1,10 @@
+#genBtn {
+  border: 1px solid black;
+  width: 150px;
+  padding: 5px;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-left: 25px;
+  text-align: center;
+  cursor: pointer;
+}

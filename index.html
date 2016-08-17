@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book Title generator</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="jquery-3.1.0.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+  <div>
+    
+    <div class="mainBlock">
+      <table>
+        <tr>
+          <td> Genre: </td>
+          <td>
+            <select id="genre">
+              <option value="mystory"> Mystory </option>
+              <option value="child"> Child book</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td> Noun: </td>
+          <td>
+            <input type="text" size="45" id="noun" placeholder="Enter noun or left empty for random" />
+          </td>
+        </tr>
+        <tr>
+          <td> Location: </td>
+          <td>
+            <input type="text" size="45"  id="location" placeholder="Enter location or left empty for random" />
+          </td>
+        </tr>
+        <tr>
+          <td> Adjective: </td>
+          <td>
+            <input type="text" size="45" id="adjective" placeholder="Enter adjective or left empty for random" />
+          </td>
+        </tr>
+        <tr>
+          <td> Name: </td>
+          <td>
+            <input type="text" size="45" id="name" placeholder="Enter name of hero or left empty for random" />
+          </td>
+        </tr>
+      </table>
+      <div id="genBtn">
+      Generate
+      </div>
+      <div id="results">
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
